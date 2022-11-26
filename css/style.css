@@ -148,9 +148,9 @@ html {
       font-size: 80%;
    }
    .hover-one-number {
-      font-size: 15rem;
+      font-size: 10rem;
    }
-  
+   
    figure.effect-text-three {
       background: #00008B;
    }
@@ -239,7 +239,37 @@ html {
   cursor: pointer;
   color: white;
   text-decoration: none;
- 
+  
+}
+.card-title {
+   text-align: center;
+   position: relative;
+   top: 39%;
+   text-transform: uppercase;
+   color: #1c1d25;
+}
+.card-text {
+   text-align: center;
+   position: relative;
+   top: 40%;
+   text-transform: uppercase;
+   color: #1c1d25;
+}
+
+.block-analysis-content p {
+   font-size: 20px;
+   line-height: 2;
+   text-transform: uppercase;
+   
+}
+.circle-color-black{
+   display: block;
+   width: 160px;
+   height: 160px;
+   margin: 0;
+   box-shadow: 0 5px 20px 0 rgb(0 0 0 / 33%);
+   border-radius: 50%;
+   background-color: black;
 }
 @keyframes circle{
    0%{
