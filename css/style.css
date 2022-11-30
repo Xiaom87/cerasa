@@ -33,6 +33,9 @@ html {
 .nav-item a:hover {
    color: #D2691E;
 }
+.navbar {
+   z-index: 2;
+}
 .block-main {
    height: 713px;
    background: linear-gradient(to top left, powderblue, pink);
@@ -241,6 +244,7 @@ html {
   text-decoration: none;
   
 }
+
 .card-title {
    text-align: center;
    position: relative;
@@ -271,6 +275,104 @@ html {
    border-radius: 50%;
    background-color: black;
 }
+.block-design-images img {
+   height: 45rem;
+   position: relative;
+   top: 5%;
+   right: 5%;
+}
+.block-command img {
+   border-radius: 50%;
+}
+.block-lato-img img {
+   height: 40rem;
+}
+.block-lato-content-img img {
+   height: 30rem;
+}
+.block-villa {
+   background: url(../img/131.jpg) no-repeat;
+   height: 0;
+   padding: 0;
+   padding-bottom: 50%;
+   background-position: center center;
+   background-size: 100%;   
+}
+.block-villa-heading h1 {
+   text-align: center;
+   padding-top: 20%;
+   color: white;
+   font-weight: bold;
+}
+.block-villa-heading p {
+   text-align: center;
+   padding-top: 1%;
+   color: white;
+   font-weight: bold;
+}
+.block-villa-introductin {
+   background-color:  #FF4500;
+   height: 50VH;
+   
+}
+.villa-introductin .card {
+   margin: auto;
+   background-color: #FF4500;
+}
+.villa-introductin .card .card-text {
+   font-size: 14px;
+   font-weight: bold;
+}
+.wrapper-block-preparation {
+   background-color: #eee;
+   height: 713px;
+}
+.preparation-content-images img {
+   height: 20rem;
+}
+.sportland {
+   background: url(../img/137.jpg) no-repeat;
+   height: 0;
+   padding: 0;
+   padding-bottom: 43.5%;
+   background-position: center center;
+   background-size: 100%; 
+}
+.sportland-heading h1 {
+   text-align: center;
+   padding-top: 20%;
+   padding-right: 15%;
+   color: white;
+   font-weight: bold;
+}
+.sportland-heading h5 {
+   text-align: center;
+   padding-top: 1%;
+   padding-right: 15%;
+   color: white;
+   font-weight: bold;
+}
+.sportland-project {
+   background-color: #c62b2e;
+   height: 50vh;
+}
+.sportland-project-content .card {
+   margin: auto;
+   background-color: #c62b2e;
+}
+.sportland-project-content .card .card-text {
+   font-size: 14px;
+   font-weight: bold;
+   
+}
+.project-analised-text p {
+   font-size: 18px;
+   line-height: 2;
+}
+.project-analised-images img {
+   height: 20rem;
+}
+
 @keyframes circle{
    0%{
      transform:rotate(0deg)
